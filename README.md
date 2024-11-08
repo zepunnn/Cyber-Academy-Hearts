@@ -2,7 +2,7 @@
 
 ## Contributors
 - [Fakhri Muhammad Al Hisyam]
-- [nama3]
+- [nama2]
 - [nama3]
 - [nama4]
 
