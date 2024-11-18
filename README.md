@@ -7,8 +7,8 @@
 - [nama4]
 
 ## Deskripsi Proyek
-Konfigurasi dan simulasi server untuk SSH, FTP, Web, dan DNS.
+Pengerjaan oleh oleh di setiap modul Cyber Academy
 
 ## Branch
 - `development`: Branch untuk pengembangan utama.
-- `Fakhri`, `nama2`, `Guntur`, `nama4`: Branch untuk masing-masing anggota.
+- `Fakhri`, `Rafif`, `Guntur`, `nama4`: Branch untuk masing-masing anggota.
