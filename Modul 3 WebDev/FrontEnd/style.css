@@ -1,0 +1,178 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0a8f0e; /* Hijau tua */
+  color: #ffffff; /* Warna teks default putih */
+}
+
+/* Header Styling */
+h1 {
+  text-align: center;
+  color: #ffffff; /* Putih */
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #e0f2e3; /* Hijau muda pucat */
+  margin-bottom: 10px;
+}
+
+/* Section Styling */
+.category-section {
+  margin: 20px auto;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #137c0a; /* Hijau medium */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Group and Category Container Styling */
+.group-container,
+#top-categories,
+#bottom-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+/* Individual Card Styling */
+.category-card,
+.group {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #ffffff; /* Putih */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect for Cards */
+.category-card:hover,
+.group:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling for Category Cards */
+.category-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Content Area Styling for Cards */
+.category-card .content,
+.group {
+  padding: 15px;
+}
+
+/* Title Styling */
+.category-card .title,
+.group h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0a4f06; /* Hijau gelap */
+  text-align: center;
+}
+
+/* Description Styling */
+.category-card .description,
+.group p {
+  font-size: 14px;
+  color: #555; /* Abu-abu gelap */
+  line-height: 1.5;
+}
+
+/* Group Specific Styling */
+.group {
+  text-align: left;
+}
+
+/* Group List Styling */
+.group ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.group ul li {
+  margin: 5px 0;
+}
+
+/* Form Styling */
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff; /* Putih */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #137c0a; /* Hijau medium */
+}
+
+form input[type="text"],
+form input[type="number"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0a4f06; /* Hijau gelap */
+  color: #ffffff; /* Putih */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #137c0a; /* Hijau medium */
+}
+
+/* Table Styling for Groups with Dark Text */
+table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #f9f9f9; /* Abu-abu sangat terang */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+table th,
+table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #333; /* Abu-abu gelap untuk teks */
+}
+
+table th {
+  background-color: #137c0a; /* Hijau medium */
+  color: #ffffff; /* Teks putih */
+  font-weight: bold;
+}
+
+table tr:hover {
+  background-color: #e8f5e9; /* Hijau pucat */
+}
